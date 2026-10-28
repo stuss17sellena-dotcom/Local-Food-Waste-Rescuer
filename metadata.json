@@ -1,0 +1,6 @@
+{
+  "name": "HarvestLoop — Neighborhood Food Rescue Dispatch",
+  "description": "High-velocity, empathetic food rescue logistics platform connecting local bakeries, grocers, and community kitchens with neighborhood relief pantries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

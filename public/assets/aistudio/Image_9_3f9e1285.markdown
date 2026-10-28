@@ -1,0 +1,223 @@
+---
+name: Earthy Harvest Modern
+colors:
+  surface: '#faf8ff'
+  surface-dim: '#d2d9f4'
+  surface-bright: '#faf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f3ff'
+  surface-container: '#eaedff'
+  surface-container-high: '#e2e7ff'
+  surface-container-highest: '#dae2fd'
+  on-surface: '#131b2e'
+  on-surface-variant: '#3f493f'
+  inverse-surface: '#283044'
+  inverse-on-surface: '#eef0ff'
+  outline: '#6f7a6e'
+  outline-variant: '#becabc'
+  surface-tint: '#006d30'
+  primary: '#00652c'
+  on-primary: '#ffffff'
+  primary-container: '#15803d'
+  on-primary-container: '#d3ffd5'
+  inverse-primary: '#79db8d'
+  secondary: '#904d00'
+  on-secondary: '#ffffff'
+  secondary-container: '#fe932c'
+  on-secondary-container: '#663500'
+  tertiary: '#b20010'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#d82324'
+  on-tertiary-container: '#fff1ef'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#95f8a7'
+  primary-fixed-dim: '#79db8d'
+  on-primary-fixed: '#00210a'
+  on-primary-fixed-variant: '#005323'
+  secondary-fixed: '#ffdcc3'
+  secondary-fixed-dim: '#ffb77d'
+  on-secondary-fixed: '#2f1500'
+  on-secondary-fixed-variant: '#6e3900'
+  tertiary-fixed: '#ffdad6'
+  tertiary-fixed-dim: '#ffb4ab'
+  on-tertiary-fixed: '#410002'
+  on-tertiary-fixed-variant: '#93000b'
+  background: '#faf8ff'
+  on-background: '#131b2e'
+  surface-variant: '#dae2fd'
+typography:
+  display-hero:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '800'
+    lineHeight: 48px
+    letterSpacing: -0.03em
+  display-hero-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '800'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '700'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0.01em
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 10px
+    fontWeight: '700'
+    lineHeight: 12px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-mobile: 0.75rem
+  margin: 1.25rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.25rem
+---
+
+## Brand & Style
+
+The design system is crafted for high-velocity, empathetic food rescue logistics. It blends the wholesome craft of local neighborhood food culture (bakeries, grocers, community markets) with the urgent, transparent efficiency of emergency relief dispatch.
+
+### Core Character
+- **Vital & Wholesome:** Communicates peak freshness, nutritional dignity, and respect for food donors and recipients alike.
+- **Urgent without Panic:** Balances ambient calm (organic forest tones) with high-visibility kinetic indicators for perishable rescue windows.
+- **Tactile & Welcoming:** Avoids sterile logistics tropes through generous radii, friendly typography, and warm culinary accents.
+
+### Design Movement
+**Tactile Organic Modernism:** Combines crisp whitespace and clean geometric typography with pill-shaped micro-elements, soft atmospheric shadows tinted with warm amber and moss, and pronounced surface layer contrast that makes key actions feel tangible and rewarding on touch screens.
+
+## Colors
+
+The color palette centers on lush, vitality-rich greens anchored by warm bakery ambers and high-visibility urgency reds.
+
+### Palette Architecture
+- **Primary (`#15803D` - Harvest Green):** The core brand tone symbolizing renewal and safety. Deeper tones (`#14532D`) anchor solid interaction states, while tint tones (`#86EFAC`, `#DCFCE7`) provide reassuring backgrounds for matched claims and completed rescues.
+- **Secondary (`#D97706` - Artisan Ochre):** Evokes fresh crusts, warm kitchens, and logistical transit. Complemented by `#F59E0B` for active listings and `#FFFBEB` for warm surface containers.
+- **Tertiary (`#DC2626` - Critical Window Red):** Reserved exclusively for time-decay triggers (e.g., pickups closing in under 30 minutes, temperature-sensitive cold chain notices).
+- **Neutrals (`#0F172A` Slate Base):** Charcoal text hierarchy against bleached porcelain (`#FFFFFF`) and chilled pantry off-whites (`#F8FAFC`, `#F1F5F9`). Avoid pure black to maintain an organic, approachable feel.
+
+## Typography
+
+The type system relies on **Plus Jakarta Sans** across all levels. Its balanced geometric construction and slightly rounded terminal curves yield high legibility at glance speed while projecting warmth and neighborly community spirit.
+
+### Typographic Hierarchy Rules
+- **Display & Large Headlines:** Set with tight tracking (`-0.02em` to `-0.03em`) and heavy weights (`700` or `800`) to create authoritative visual anchors on donation dashboards.
+- **Numbers and Quantities:** Always paired with `label-lg` or `headline-md` tabular figures to ensure crate counts, poundage, and countdown clocks do not visually wobble during real-time updates.
+- **Labels & Microcopy:** `label-sm` utilizes uppercase formatting with loosened letter spacing (`0.04em`) when applied to cold-chain verification and perishable status flags.
+
+## Layout & Spacing
+
+A mobile-first, 4-column layout model with dynamic viewport scaling dictates the application layout.
+
+### Grid & Layout Rules
+- **Mobile Handheld (360px - 480px):** 4-column fluid layout with `16px` outer margins and `12px` gutters. Floating action zones maintain safe bottom padding of `84px` to accommodate the physical home indicator and pinned navigation bar.
+- **Tablet & Split Terminal (768px - 1024px):** 8-column layout with `24px` margins and `16px` gutters, allowing side-by-side rescue logs and donor verification maps.
+- **Vertical Rhythm:** Rooted in an 8pt base grid. Component paddings consistently utilize `space-sm` (`8px`) for compact operational chips and `space-md` (`16px`) for cards and input containers.
+
+## Elevation & Depth
+
+Visual hierarchy uses **tonal depth and organic ambient shadows** rather than hard structural lines.
+
+### Elevation Levels
+- **Level 0 (Floor Canvas):** Flat `#F8FAFC` background. Completely shadow-free.
+- **Level 1 (Listing Cards, Input Shells):** Elevated surface `#FFFFFF` layered on `#F8FAFC`. Shadow: `0 2px 8px -2px rgba(15, 23, 42, 0.04), 0 1px 3px -1px rgba(21, 128, 61, 0.03)`. Subtle green ambient tint reinforces organic tone.
+- **Level 2 (Hover/Grabbed Cards, Action Sheets):** Shadow: `0 10px 24px -4px rgba(15, 23, 42, 0.08), 0 4px 8px -2px rgba(217, 119, 6, 0.05)`. Amber-tinted penumbra signals tactile readiness for claim actions.
+- **Level 3 (Modal Alerts & Bottom Drawers):** Shadow: `0 20px 32px -8px rgba(15, 23, 42, 0.16)`. Accompanied by a 24% dark slate scrim with `backdrop-blur(4px)` for environmental context.
+- **Countdown Micro-Depth:** Urgency elements and closing countdown indicators receive a soft glowing halo (`0 0 12px rgba(220, 38, 38, 0.25)`) when time falls under 30 minutes.
+
+## Shapes
+
+The design system employs **Rounded (Level 2)** geometry with selective pill contours for fast thumb-reach actions.
+
+### Radius Distribution
+- **Cards & Surface Modules:** Bound with `rounded-2xl` (`16px`) and `rounded-3xl` (`24px`), softening content tiles and reducing visual harshness.
+- **Buttons, Badges & Chips:** Completely pill-shaped (`rounded-full` / `9999px`) to create high-affordance, punchy interactive items that stand distinct from square packaging images.
+- **Inputs & Dropdowns:** `rounded-xl` (`12px`) for a comfortable, balanced touch target.
+
+## Components
+
+### Buttons
+- **Primary Rescue Action:** Solid Harvest Green (`#15803D`) with bold white text. Pill-shaped (`rounded-full`), min-height `52px`, `px-6`. Active state scales down gently (`scale(0.98)`) and shifts to Deep Moss (`#14532D`).
+- **Urgent Claim Action:** Amber Ochre (`#D97706`) background with white text, or pure Sunset Crimson (`#DC2626`) for immediate dispatch pickups.
+- **Secondary / Ghost:** `#FFFFFF` background, `1.5px` border in `#E2E8F0`, dark slate label. Press state triggers `#F1F5F9`.
+
+### Chips & Status Badges
+- **Perishable Tags (Bakery, Produce, Prepared Meals):** Pill-shaped, small uppercase label. Tinted organic backgrounds (e.g., `#FEF3C7` for baked goods, `#DCFCE7` for farm produce) with matched dark label ink.
+- **Urgency Countdown Meter:** Dual-part component featuring a clock icon and live ticking countdown. 
+  - Standard window: Ochre tint (`#FFFBEB` background, `#B45309` text).
+  - Critical window (<30 mins): Pulsing crimson pill (`#FEE2E2` background, `#DC2626` text, animated red dot indicator).
+
+### Cards (Donation Listing)
+- Pure white container (`rounded-2xl`), nested in 8pt internal padding, bordered by a soft `1px` translucent edge (`rgba(15, 23, 42, 0.05)`).
+- Contains hero thumbnail with rounded corners (`rounded-xl`), donor bakery/market title, distance badge, and a high-contrast weight/item count indicator.
+
+### Input Fields
+- Generous `48px` minimum height, `rounded-xl`, `#FFFFFF` surface with `#CBD5E1` border.
+- Active focus state transitions to `#15803D` border with a subtle 3px ring (`rgba(21, 128, 61, 0.15)`). Placeholder copy is warm slate (`#94A3B8`).
+
+### Checkboxes & Segmented Controls
+- **Checkboxes:** `20px` squares with `rounded-md` (`6px`). Checked state uses `#15803D` with a clean white stroke checkmark.
+- **Logistical Category Tabs:** Pill-shaped sliding container with `#F1F5F9` background track and an elevated `#FFFFFF` white thumb indicator showing active selection.
+
+### Custom Component: Rescue Impact Meter
+- Visual progress tracker showing pounds of rescued food, metric tons of CO2 averted, and families supported. Features high-saturation emerald fills over sage track lines (`#86EFAC` on `#DCFCE7`), paired with milestone badges.
